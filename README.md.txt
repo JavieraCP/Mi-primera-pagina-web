@@ -10,10 +10,11 @@ Comando: git status
 Definición: Me muestra el estado actual del repositorio: qué archivos he modificado, cuáles están listos para el commit (en staging), y en qué rama estoy trabajando.
 Comando de Ejemplo: git status
 
+Comando: git commit
+Definición: Guarda la versión final. Registra los cambios que preparé (git add) en el historial del repositorio con un mensaje que explica lo que hice.
+Comando de Ejemplo: git commit -m "Terminé el diseño del header".
+
 Comando: git add
 Definición: Prepara mis cambios. Mueve los archivos modificados o nuevos al área de preparación (staging) para que entren en el siguiente commit (para agregar todos los cambios).
 Comando de Ejemplo: git add . (para agregar todos los cambios).
 
-Comando: git commit
-Definición: Guarda la versión final. Registra los cambios que preparé (git add) en el historial del repositorio con un mensaje que explica lo que hice.
-Comando de Ejemplo: git commit -m "Terminé el diseño del header".
